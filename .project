@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>ChoeHwanseongProject2</name>
+	<comment></comment>
+	<projects>
+		<project>ojdbc8</project>
+		<project>jjwt-impl-0.12.5</project>
+		<project>lombok</project>
+		<project>jackson-core-2.17.1</project>
+		<project>jjwt-api-0.12.5</project>
+		<project>jakarta.servlet.jsp.jstl-api-2.0.0</project>
+		<project>jsoup-1.17.2</project>
+		<project>jakarta.servlet.jsp.jstl-2.0.0</project>
+		<project>jackson-databind-2.17.1</project>
+		<project>jackson-annotations-2.17.1</project>
+		<project>jjwt-jackson-0.12.5</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
+		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+	</natures>
+</projectDescription>

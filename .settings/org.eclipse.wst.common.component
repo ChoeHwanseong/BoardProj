@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ChoeHwanseongProject2">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="ojdbc8.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ojdbc8/ojdbc8">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jjwt-impl-0.12.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jjwt-impl-0.12.5/jjwt-impl-0.12.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="lombok.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/lombok/lombok">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-2.17.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-core-2.17.1/jackson-core-2.17.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jjwt-api-0.12.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jjwt-api-0.12.5/jjwt-api-0.12.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.servlet.jsp.jstl-api-2.0.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jakarta.servlet.jsp.jstl-api-2.0.0/jakarta.servlet.jsp.jstl-api-2.0.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsoup-1.17.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jsoup-1.17.2/jsoup-1.17.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta.servlet.jsp.jstl-2.0.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jakarta.servlet.jsp.jstl-2.0.0/jakarta.servlet.jsp.jstl-2.0.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-databind-2.17.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-databind-2.17.1/jackson-databind-2.17.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-annotations-2.17.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-annotations-2.17.1/jackson-annotations-2.17.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jjwt-jackson-0.12.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jjwt-jackson-0.12.5/jjwt-jackson-0.12.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="ChoeHwanseongProject2"/>
+        <property name="java-output-path" value="/ChoeHwanseongProject2/build/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,8 @@
+td>a{
+		color: white;
+		text-decoration: none;
+}
+.text-start:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
